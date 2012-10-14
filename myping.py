@@ -21,6 +21,8 @@ def estimate_rtt(dst, pkts = 10):
     """Estimates RTT sending pkts pings to dst.
     @returns rtt (ms)
     """
+    # XXX: If some packet gives timeout, thw whole time waiting is taken into
+    # account when calculating the RTT. Is this what we really want ?
 
     t1 = time.time()
 
