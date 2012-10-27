@@ -1,0 +1,9 @@
+set terminal png enhanced size 1024,768
+
+set output "plot/rtt.png"
+set title "Comparativa de RTTs"
+set autoscale # scale axes automatically
+set yr [0:600]
+set ylabel "RTT (ms)"
+set style fill solid 0.25 border
+plot "data/rtt" using :2:xticlabels(1) title "" with boxes
