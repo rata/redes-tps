@@ -76,6 +76,7 @@ e y el RTT teórico a universidades de distintas partes del mundo:
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="5">
 <features tabularvalignment="middle">
@@ -422,10 +423,6 @@ Guinza, Egipto
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -439,6 +436,7 @@ Para una mejor visualización de los resultados, se realizó el siguiente
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Float figure
 placement H
 wide false
@@ -507,6 +505,7 @@ De esta forma, tenemos:
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Tabular
 <lyxtabular version="3" rows="7" columns="2">
 <features tabularvalignment="middle">
@@ -664,10 +663,6 @@ Universidad de El Cairo
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -718,17 +713,17 @@ RTT Estimado
 RTTE
 \noun default
  de cada destino está sujeto a la importancia del mismo.
- Examinando la segunda tabla, podemos ver que a 
+ Examinando la segunda tabla, podemos ver que a Canadá
 \emph on
-EEUU (Toronto)
+ (Toronto)
 \emph default
  el 
 \begin_inset Formula $t_{transmición}+t_{encolamiento}$
 \end_inset
 
  es notablemente menor que a otros destinos, lo cual parece lógico ya que
- EEUU es uno de los puntos más importantes, mientras que a Brasil, no tan
- importante, el valor es muy elevado.
+ es cercano a EEUU, uno de los puntos más importantes, mientras que a Brasil,
+ no tan importante, el valor es muy elevado.
 \end_layout
 
 \begin_layout Standard
@@ -770,11 +765,12 @@ América del Norte
 \end_layout
 
 \begin_layout Standard
+\align center
 \begin_inset Float figure
 placement H
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
