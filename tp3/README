@@ -1,0 +1,9 @@
+Servicios suceptibles a banner grabbing:
+
+SSH
+Apache2
+Exim
+
+Con las configuracion por defecto en debian testing/unstable. Se da una
+implementacion para sacar el banner de un server HTTPD (se ha probado con
+Apache/2.2.22 y nginx/0.8.54)
